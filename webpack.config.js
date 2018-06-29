@@ -66,7 +66,6 @@ module.exports = {
             hash: true,
             chunks: ['main']
         }),
-        new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin()
     ]
